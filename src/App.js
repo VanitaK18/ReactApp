@@ -5,7 +5,7 @@ function App() {
     let errors = {};
     const { ais_email, telephone, house_number, room } = formState;
     if (
-      !/^([0-9a-zA-Z](([\.-]?\w+)*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/.test(
+      !/^([0-9a-zA-Z]([-\.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/.test(
         ais_email
       ) &&
       ais_email
